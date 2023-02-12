@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(232, 236, 243, 0.89);
+    font-size: small;
+    text-align: left;
+    margin-left: 0px;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(220,220,220);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+}
+.footer {
+    background-color: rgb(171, 195, 240);
+    color: rgb(6, 6, 109);
+    min-height: 150px;
+}
+table tr:hover td {
+    background-color: darkgrey;
+}
+table tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+table thead th {
+    background-color: black;
+    color: white;
+}
+table tfoot td {
+    background-color: lightgray;
+}
+table {
+    -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.28); 
+    box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.28);
+    border: solid 1px grey;
+}
